@@ -1,0 +1,75 @@
+body {
+    background-color: #f6f9fc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+}
+
+a {
+  color: rgb(201, 201, 201);
+  font-size: 16px;
+  font-family: 'Roboto';
+  text-decoration: none;
+}
+
+
+
+li {
+  padding: 14px 15px 0px
+}
+
+.nav  {
+  min-height: 40px;
+  padding: 10px 15px;
+  background: #333;
+  border-bottom: 5px #004804 solid;
+  position: relative;
+  display: block;
+  overflow:hidden;
+  
+}
+
+#nav-logo {
+  display: inline-block;
+  height: 30px;
+  padding-top: 5px ;
+  padding-left: 0px;
+}
+
+a:hover {
+  color: white;
+}
+
+
+#Home   {
+  display: block;
+  float: right;
+}
+
+#Forums {
+  display: block;
+  float: right;
+}
+
+#Wiki   {
+  display: block;
+  float: right;
+}
+
+#Github {
+  display: block;
+  float: right;
+}
+
+#Download {
+  display: block;
+  float: right;
+}
+
+#Login  {
+  display: block;
+  float: right;
+}

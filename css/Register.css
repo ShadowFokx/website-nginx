@@ -1,0 +1,93 @@
+body {
+    background-color: #DBF9FC;
+}
+
+a, p {
+    font-family: 'Roboto';
+}
+
+.button {
+    width: 600px;
+    height: 30px;
+    border-radius: 18px;
+    border-color: #73f0fc;
+    border-style: solid;
+    background-color: #73f0fc;
+    margin-top: 5px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    display: block;
+}
+
+.register-box  {
+    border: 3px solid lightslategray;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 67%;
+    transform: translate(-50%, -90%);
+}
+
+.Welcome    {
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+    width: 600px;
+}
+
+.email-input {
+    display: block;
+    width: 300px;
+    height: 30px;
+    border-radius: 9px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 300px;
+}
+
+.username-input {
+    display: block;
+    width: 300px;
+    height: 30px;
+    border-radius: 9px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 300px;
+}
+
+.password-input {
+    display: block;
+    width: 300px;
+    height: 30px;
+    border-radius: 9px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 300px;
+}
+
+.nav {
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid lightslategray;
+}
+
+.login {
+    float: right;
+}
+
+.text {
+    text-align: center;
+}
