@@ -1,29 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="eng">
   <head>
-    <title>Register</title>
-    <link rel="stylesheet" href="/css/Register.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/Register-upgrade.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
-   <body>
-    <div class="nav">
-        <a href="index.html">Home</a>
-        <a class="login" href="Login.html">Login/Register</a>
+  <body>
+  <div class="nav">
+      <div id="nav-item">
+        <ul>
+          <li id="nav-logo">
+            <a href="/">
+              <img src="images/DinoLinux.png" id="nav-logo">
+            </a>
+          </li>
+          <li id="Login">
+            <a href="Login.php">Login</a>
+          </li>
+          <li id="Download">
+            <a href="Download.php">Download</a>
+          </li>          
+          <li id="Github">
+            <a href="https://www.Github.com/shadowfokx">Github</a>
+          </li>          
+          <li id="Wiki">
+            <a href="wiki.php">Wiki</a>
+          </li>
+          <li id="Forums">
+            <a href="forums.php">Forums</a>
+          </li>          
+          <li id="Home">
+            <a href="/">Home</a>
+          </li>          
+        </ul>
+      </div>
     </div>
-    <div class="register-box">
-      <p class="Welcome">Register here to get acces to our great Forum page</p>
-      <p class="text">Email</p> 
-      <input class="email-input" type="email" name="email" placeholder="Email" required></br>
-      <p class="text">Username</p>
-      <input class="username-input" type="text" name="username" placeholder="Username" required><br>
-      <p class="text">Password</p>
-      <input class="password-input" type="password" name="password" placeholder="Password" required><br>
-      <p class="text">Confirm password</p>
-      <input class="password-input" type="password" name="password cofirm" placeholder="Confirm"><br>
-      <a href="index.html"><br>
-      <button class="button">Register</button>
-    </div>
-   </body>
+  <div class="register">
+    <p class="register-text">Register</p>
+    <p class="register-here">Register here to get acces to our great Forum page!</p>
+    <input class="username-input" type="text" placeholder="Username"> 
+    <input type="email" class="email-input" placeholder="E-mailaddres">
+    <input type="password" class="password-input" placeholder="Password">
+    <p> <span class="by-pressing">By pressing the 'Become a member' button,</span> <span class="you-aggree" >you aggree with our  <a class="a-terms" href="">Conditions of Use</a> and <a class="a-terms" href="">Privacy Notice</a>. </span> </p>
+    <button class="register-button">Register</button>
+  </div>
+  </body>
 </html>

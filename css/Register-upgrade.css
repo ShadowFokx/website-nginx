@@ -6,26 +6,47 @@ p {
   font-family: 'Roboto';
 }
 
-.login  {
+
+
+.register  {
   border: 2px solid rgb(211, 211, 211);
   display: inline-block;
   padding: 10px;
   position: absolute;
   left: 50%;
-  top: 34.5%;
+  top: 40.5%;
   transform: translate(-50%, -90%);
   background-color: rgb(250, 250, 250);
-
 }
 
-.email-input  {
-  display: block;
+.register-text  {
+  font-weight: bold;
+  font-size: 27px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+
+
+.username-input {
   width: 300px;
   height: 30px;
   border-radius: 9px;
-  margin-bottom: 5px;
-  text-align: center;
   margin: auto;
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.email-input  {
+  width: 300px;
+  height: 30px;
+  border-radius: 9px;
+  margin: auto;
+  display: block;
+  text-align: center;
   margin-bottom: 5px;
 }
 
@@ -36,18 +57,33 @@ p {
   margin: auto;
   display: block;
   text-align: center;
-}
-
-
-.login-text {
-  font-weight: bold;
-  font-size: 27px;
   margin-bottom: 5px;
-  margin-top: 5px;
-  text-align: center;
 }
 
-.login-button {
+.register-here  {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.by-pressing  {
+  text-align: center;
+  display: block;
+}
+
+.you-aggree {
+
+}
+
+.a-terms  {
+  color: black;
+  text-decoration: underline;
+}
+
+.a-terms:hover {
+  color: #004804;
+}
+
+.register-button  {
   width: 300px;
   height: 30px;
   border-radius: 18px;
@@ -58,23 +94,6 @@ p {
   text-align: center;
   display: block;
   color: aliceblue;
-  margin-left: 55.25px;
-  margin-right: 55.25px;
+  margin-left: 57px;
 }
 
-.get-acces  {
-  text-align: center;
-}
-
-.register {
-  color: black;
-  font-size: 13px;
-  text-decoration: underline;
-  margin: auto;
-  display: block;
-  text-align: center;
-}
-
-.register:hover {
-  color: #004804;
-}

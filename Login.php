@@ -20,19 +20,19 @@
             </a>
           </li>
           <li id="Login">
-            <a href="Login.html">Login</a>
+            <a href="Login.php">Login</a>
           </li>
           <li id="Download">
-            <a href="Download.html">Download</a>
+            <a href="Download.php">Download</a>
           </li>          
           <li id="Github">
-            <a href="Github.com/shadowfokx">Github</a>
+            <a href="https://www.Github.com/shadowfokx">Github</a>
           </li>          
           <li id="Wiki">
-            <a href="wiki.html">Wiki</a>
+            <a href="wiki.php">Wiki</a>
           </li>
           <li id="Forums">
-            <a href="forums.html">Forums</a>
+            <a href="forums.php">Forums</a>
           </li>          
           <li id="Home">
             <a href="/">Home</a>
@@ -42,11 +42,11 @@
     </div>
     <div class="login" >
       <p class="login-text">Login</p>
-      <p class="get-acces">And get acces to our forums!</p>
+      <p class="get-acces">Login here to get acces to our great Forum page!</p>
       <input class="email-input" type="email" name="email" placeholder="Email">
       <input class="password-input" type="password" name="password" placeholder="Password">
       <button class="login-button">Login</button>
-      <a type="button" class="register" href="Register.html">Or do you want to register a new account?</a>
+      <a type="button" class="register" href="Register.php">Or do you want to register a new account?</a>
     </div>
   </body>
 </html>
