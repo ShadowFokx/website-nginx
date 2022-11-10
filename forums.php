@@ -41,7 +41,8 @@
   </div>
 
   <div class="forums-1">
-    
+    <p>Forums-1</p>
+    <textarea class="forums-1" cols="30" rows="20" maxlength="5"></textarea>
   </div>
 </body>
 

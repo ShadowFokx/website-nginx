@@ -1,0 +1,3 @@
+[submodule "webosu"]
+	path = webosu
+	url = https://github.com/shadowfokx/webosu
