@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="eng">
   <head>
-  <link rel="stylesheet" href="css/nav.css">
-  <link rel="stylesheet" href="css/Register-upgrade.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/Register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
   <div class="nav">
@@ -40,12 +40,13 @@
   <div class="register">
     <p class="register-text">Register</p>
     <p class="register-here">Register here to get acces to our great Forum page!</p>
-    <input class="username-input" type="text" placeholder="Username"> 
-    <input type="email" class="email-input" placeholder="E-mailaddres">
-    <input type="password" class="password-input" placeholder="Password">
-    <p> <span class="by-pressing">By pressing the 'Become a member' button,</span> <span class="you-aggree" >you aggree with our  <a class="a-terms" href="">Conditions of Use</a> and <a class="a-terms" href="">Privacy Notice</a>. </span> </p>
-    <button class="register-button">Register</button>
+    <input class="username-input" type="text" placeholder="Username" required> 
+    <input type="email" class="email-input" placeholder="E-mailaddres" required>
+    <input type="password" class="password-input" placeholder="Password" required>
+    <input type="password" class="password-confirm-input" placeholder="Confirm" required>
+    <p> <span class="by-pressing">By pressing the 'Become a member' button,</span> <span class="you-aggree" >you aggree with our  <a class="a-terms" href="">Conditions of Use</a>  </span> </p>
+    <p>and <a class="a-terms" href="">Privacy Notice</a>.</p>
+    <button type="submit" class="register-button">Become a member</button>
   </div>
   </body>
 </html>
-hallo
