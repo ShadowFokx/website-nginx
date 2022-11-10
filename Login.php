@@ -13,8 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
-  <div class="nav">
-      <div id="nav-item">
+  <div id="nav">
+    <div class="nav">
         <ul>
           <li id="nav-logo">
             <a href="/">
@@ -22,26 +22,26 @@
             </a>
           </li>
           <li id="Login">
-            <a href="Login.php" >Login</a>
+            <a class="topbar-text" href="Login.php">Login</a>
           </li>
           <li id="Download">
-            <a href="Download.php">Download</a>
+            <a class="topbar-text" href="Download.php">Download</a>
           </li>          
           <li id="Github">
-            <a href="https://www.Github.com/shadowfokx">Github</a>
+            <a class="topbar-text" href="https://www.Github.com/shadowfokx">Github</a>
           </li>          
           <li id="Wiki">
-            <a href="wiki.php">Wiki</a>
+            <a class="topbar-text" href="wiki.php">Wiki</a>
           </li>
           <li id="Forums">
-            <a href="forums.php">Forums</a>
+            <a class="topbar-text" href="forums.php">Forums</a>
           </li>          
           <li id="Home">
-            <a href="/">Home</a>
-          </li>          
+            <a class="topbar-text" href="/">Home</a>
+          </li>     
         </ul>
-      </div>
-    </div>
+      </div>  
+  </div>
     <div class="login" >
 
     <?php

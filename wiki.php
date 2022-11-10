@@ -11,32 +11,34 @@
 </head>
 
 <body>
-  <div class="nav">
-    <div id="nav-item">
-      <ul>
-        <li id="nav-logo">
-          <a href="/">
-            <img src="images/DinoLinux.png" id="nav-logo">
-          </a>
-        </li>
-        <li id="Login">
-          <a href="Login.php">Login</a>
-        </li>
-        <li id="Download">
-          <a href="Download.php">Download</a>
-        </li>          
-        <li id="Github">
-          <a href="https://www.Github.com/shadowfokx">Github</a>
-        </li>          
-        <li id="Wiki">
-          <a href="wiki.php">Wiki</a>
-        </li>
-        <li id="Forums">
-          <a href="forums.php">Forums</a>
-        </li>          
-        <li id="Home">
-          <a href="/">Home</a>
-        </li>          
-      </ul>
+<div id="nav">
+    <div class="nav">
+        <ul>
+          <li id="nav-logo">
+            <a href="/">
+              <img src="images/DinoLinux.png" id="nav-logo">
+            </a>
+          </li>
+          <li id="Login">
+            <a class="topbar-text" href="Login.php">Login</a>
+          </li>
+          <li id="Download">
+            <a class="topbar-text" href="Download.php">Download</a>
+          </li>          
+          <li id="Github">
+            <a class="topbar-text" href="https://www.Github.com/shadowfokx">Github</a>
+          </li>          
+          <li id="Wiki">
+            <a class="topbar-text" href="wiki.php">Wiki</a>
+          </li>
+          <li id="Forums">
+            <a class="topbar-text" href="forums.php">Forums</a>
+          </li>          
+          <li id="Home">
+            <a class="topbar-text" href="/">Home</a>
+          </li>     
+        </ul>
+      </div>  
   </div>
+
 </body>

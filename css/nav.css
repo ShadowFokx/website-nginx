@@ -17,6 +17,9 @@ a {
   color: rgb(201, 201, 201);
 }
 
+.topbar-text  {
+  font-weight: bold;
+}
 
 
 li {
