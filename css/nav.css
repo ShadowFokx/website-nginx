@@ -9,10 +9,12 @@ body {
 }
 
 a {
-  color: rgb(201, 201, 201);
   font-size: 16px;
   font-family: 'Roboto';
   text-decoration: none;
+  font-weight: bold;
+  margin-right: 15px;
+  color: rgb(201, 201, 201);
 }
 
 
@@ -44,8 +46,8 @@ a:hover {
 
 
 #Home   {
-  display: block;
   float: right;
+  display: block;
 }
 
 #Forums {

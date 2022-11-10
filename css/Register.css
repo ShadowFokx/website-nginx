@@ -16,9 +16,8 @@ p {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -90%);
-  background-color: rgb(250, 250, 250);
-  margin-top: 20px;
+  transform: translate(-50%, -50%);
+  background-color: #f3f3f3;
 }
 
 .register-text  {
@@ -92,7 +91,8 @@ p {
   text-align: center;
   display: block;
   color: aliceblue;
-  transform: translatex(10%);
+  margin-left: 55.25px;
+  margin-right: 55.25px;
 }
 
 .password-confirm-input {

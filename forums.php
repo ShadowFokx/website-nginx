@@ -3,6 +3,7 @@
 <head>
 	<title>forums</title>
 	<link rel="stylesheet" href="css/forums.css">
+  <link rel="icon" href="images/icon.png">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,7 +43,7 @@
 
   <div class="forums-1">
     <p>Forums-1</p>
-    <textarea class="forums-1" cols="30" rows="20" maxlength="5"></textarea>
+    <textarea class="forums-1" cols="50" rows="20" maxlength="512" placeholder="max leters 512"></textarea>
   </div>
 </body>
 
