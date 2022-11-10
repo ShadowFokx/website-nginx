@@ -48,29 +48,35 @@ a:hover {
 #Home   {
   float: right;
   display: block;
+  font-weight: bold;
 }
 
 #Forums {
   display: block;
   float: right;
+  font-weight: bold;
 }
 
 #Wiki   {
   display: block;
   float: right;
+  font-weight: bold;
 }
 
 #Github {
   display: block;
   float: right;
+  font-weight: bold;
 }
 
 #Download {
   display: block;
   float: right;
+  font-weight: bold;
 }
 
 #Login  {
   display: block;
   float: right;
+  font-weight: bold;
 }
