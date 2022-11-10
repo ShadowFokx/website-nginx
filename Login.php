@@ -57,7 +57,6 @@
         <a type='button' class='register' href='Register.php'>Or do you want to register a new account?</a>
         ";
       }   
-   
       //the login page I explained earlier
       else{
         echo  "<p>You are logged in as ".$_SESSION['username']." &bull; <a href='logout_parse.php'>Logout</a>";
