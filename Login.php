@@ -45,6 +45,8 @@
     <div class="login" >
 
     <?php
+      
+      //checks if you have a sesion running and if not it serves you a login page
       if  (!isset($_SESSION['uid']))  {
         echo  "<form action='login_parse.php' method='post'>
         <p class='login-text'>Login</p>
@@ -54,7 +56,10 @@
         <input class='login-button' type='submit' name='submit' value='Log In'>
         <a type='button' class='register' href='Register.php'>Or do you want to register a new account?</a>
         ";
-      }   else{
+      }   
+   
+      //the login page I explained earlier
+      else{
         echo  "<p>You are logged in as ".$_SESSION['username']." &bull; <a href='logout_parse.php'>Logout</a>";
       }
     ?>
