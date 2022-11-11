@@ -51,7 +51,7 @@
         echo  "<form action='login_parse.php' method='post'>
         <p class='login-text'>Login</p>
         <p class='get-acces'>Login here to get acces to our great Forum page!</p>
-        <input class='email-input' type='email' name='email' placeholder='Email'>
+        <input class='email-input' type='text' name='email' placeholder='username'>
         <input class='password-input' type='password' name='password' placeholder='Password'>
         <input class='login-button' type='submit' name='submit' value='Log In'>
         <a type='button' class='register' href='Register.php'>Or do you want to register a new account?</a>
